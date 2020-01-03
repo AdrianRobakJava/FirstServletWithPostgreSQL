@@ -147,8 +147,7 @@ public class SerwletZawodnicy extends HttpServlet {
 			list = sb.toString();
 		}
 
-		//Błąd
-		//INFO  [stdout] (default task-1) java.sql.SQLException: No suitable driver found for jdbc:postgresql://localhost:5432/zawodnicy
+		
 		
 		
 		response.getWriter().println("<!DOCTYPE html>\r\n" + 
